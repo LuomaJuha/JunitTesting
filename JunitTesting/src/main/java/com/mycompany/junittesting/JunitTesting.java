@@ -22,5 +22,10 @@ public class JunitTesting {
         }
     }
     
+    @Test
+    public void DoNothing(){
+        
+    }
+    
     
 }
