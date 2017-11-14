@@ -7,48 +7,48 @@
  */
 
 
-import org.junit.Test;
-import org.junit.After;
-import org.junit.AfterClass;
-import org.junit.Before;
-import org.junit.BeforeClass;
-import static org.junit.Assert.*;
+//import org.junit.Test;
+//import org.junit.After;
+//import org.junit.AfterClass;
+//import org.junit.Before;
+//import org.junit.BeforeClass;
+//import static org.junit.Assert.*;
 /**
  *
  * @author Suolapurkki
  */
 public class JunitTesting {
     
-    public int Age;
-    
-    @BeforeClass
-    public static void setUpClass() {
-    }
-    
-    @AfterClass
-    public static void tearDownClass() {
-    }
-    
-    @Before
-    public void setUp() {
-    }
-    
-    @After
-    public void tearDown() {
-    }
-    
-    
-    @Test
-    public void DoCalculations(int test){
-        for(int i = 5; i > 0; i--){
-            int result = i / test;
-        }
-    }
-    
-    @Test
-    public void DoNothing(){
-        
-    }
+//    public int Age;
+//    
+//    @BeforeClass
+//    public static void setUpClass() {
+//    }
+//    
+//    @AfterClass
+//    public static void tearDownClass() {
+//    }
+//    
+//    @Before
+//    public void setUp() {
+//    }
+//    
+//    @After
+//    public void tearDown() {
+//    }
+//    
+//    
+//    @Test
+//    public void DoCalculations(int test){
+//        for(int i = 5; i > 0; i--){
+//            int result = i / test;
+//        }
+//    }
+//    
+//    @Test
+//    public void DoNothing(){
+//        
+//    }
     
     
 }
