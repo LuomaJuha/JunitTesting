@@ -26,7 +26,7 @@ public class CalculatorTest{
     @Parameters
     public static Collection<Object[]> data() {
         return Arrays.asList(new Object[][] {     
-                 { -5 , 5}, { 15, 0 }, { 0, 15 }, { 32, 1 }, { 1513123, 5514 }, { -124124, 31 }, { 331, 423123 }  
+            {-1994, -132}, {-9999, 9123}, { -5 , 5}, { 15, 0 }, { 0, 15 }, { 32, 1 }, { 1513123, 5514 }, { -124124, 31 }, { 331, 423123 }  
            });
     }
     
