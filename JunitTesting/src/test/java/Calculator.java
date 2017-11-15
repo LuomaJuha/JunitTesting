@@ -20,7 +20,6 @@ public class Calculator {
     
     
     public int Add(int a, int b){
-        System.out.println("Hei");
         return a + b;
     }
     
