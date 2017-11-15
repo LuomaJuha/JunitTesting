@@ -1,6 +1,7 @@
 
 import org.junit.Test;
-
+import org.junit.experimental.theories.*;
+import org.junit.runner.RunWith;
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -12,6 +13,7 @@ import org.junit.Test;
  *
  * @author Suolapurkki
  */
+@RunWith(Theories.class)
 public class JunitTest {
     
     
