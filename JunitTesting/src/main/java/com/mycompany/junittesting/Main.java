@@ -21,7 +21,6 @@ public class Main {
             System.out.println("Substract " + i + " - " + k + " = "+  calc.Substract(i, k));
             System.out.println("Multiply " + i + " * " + k + " = "+  calc.Multiply(i, k));
             System.out.println("Divide " + i + " / " + k + " = "+  calc.Divide(i, k));
-            System.out.println("Pythagoras " + i + "^2 + " + k + "^2 = x^2 :"+  calc.Pythagoras((float)i, (float)k));
         }
     }
 }

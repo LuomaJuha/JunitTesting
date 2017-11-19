@@ -26,8 +26,4 @@ public class Calculator {
     public int Divide(int a, int b){
         return a / b;
     }
-    
-    public double Pythagoras(float a, float b){
-        return Math.sqrt(a * a + b * b);
-    }
 }

@@ -10,7 +10,6 @@ import org.junit.rules.ErrorCollector;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameters;
-import static org.hamcrest.Matcher.*;
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -23,10 +22,11 @@ import static org.hamcrest.Matcher.*;
  */
 @RunWith(Parameterized.class)
 public class CalculatorTest{
+    
     @Parameters
     public static Collection<Object[]> data() {
         return Arrays.asList(new Object[][] {     
-            {-1994, -132}, {-9999, 9123}, { -5 , 5}, { 15, 0 }, { 0, 15 }, { 32, 1 }, { 1513123, 5514 }, { -124124, 31 }, { 331, 423123 }  
+            {-1994, -132}, {0, 0}, { -5 , 5}, { 15,3 }, { 0, 15 }, { 32, 1 }, { 1513123, 5514 }, { -124124, 2 }, { 0, 423123 }  
            });
     }
     
@@ -72,6 +72,7 @@ public class CalculatorTest{
         }
         
         try{
+            assertThat(Fa, not(0));
             assertThat(calc.Divide(Fb, Fa), not(0));
         }catch(Throwable e){
             System.out.println("Report Error" + e);
